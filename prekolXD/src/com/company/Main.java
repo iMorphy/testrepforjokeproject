@@ -16,7 +16,7 @@ public class Main {
                 }
             };
         System.out.println("Купил мужик шляпу...");
-        timer.schedule(task, 2000,1);
+        timer.schedule(task, 4000,1);
         System.out.println();
         try {
             Thread.sleep(8000);
